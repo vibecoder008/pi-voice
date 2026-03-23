@@ -1,0 +1,51 @@
+{
+  "name": "pi-voice",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bidirectional voice extension for Pi — dictate prompts via speech-to-text and listen to responses via text-to-speech, with full conversation mode",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "voice",
+    "speech-to-text",
+    "text-to-speech",
+    "stt",
+    "tts",
+    "dictation",
+    "voice-input",
+    "voice-output",
+    "conversation-mode",
+    "deepgram",
+    "openai",
+    "whisper",
+    "edge-tts",
+    "piper"
+  ],
+  "license": "MIT",
+  "author": "mhlethereum-design",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhlethereum-design/pi-voice"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^5.0.0",
+    "openai": "^4.80.0",
+    "node-edge-tts": "^1.2.10",
+    "node-record-lpcm16": "^1.0.1",
+    "ws": "^8.18.0"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "@mariozechner/pi-ai": "*",
+    "@sinclair/typebox": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.0",
+    "typescript": "^5.7.0"
+  }
+}

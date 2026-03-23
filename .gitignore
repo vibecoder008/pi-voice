@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.js
+*.d.ts
+*.map
+!src/**
+.pi/
+AUDIT*.md
+SAFETY-AUDIT.md
+SECURITY-AUDIT.md
+UI_UX_AUDIT.md
+CONVERGENCE_AUDIT.md
