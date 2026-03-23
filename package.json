@@ -22,10 +22,10 @@
     "piper"
   ],
   "license": "MIT",
-  "author": "mhlethereum-design",
+  "author": "vibecoder008",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mhlethereum-design/pi-voice"
+    "url": "https://github.com/vibecoder008/pi-voice"
   },
   "pi": {
     "extensions": ["./src/index.ts"]
