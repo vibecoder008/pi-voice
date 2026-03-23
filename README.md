@@ -5,7 +5,7 @@
     Voice input &amp; output for the <a href="https://github.com/badlogic/pi-mono">Pi coding agent</a>.
   </p>
   <p align="center">
-    <a href="#install">Install</a> · <a href="#how-it-works">How It Works</a> · <a href="#settings--customization">Settings</a> · <a href="#providers">Providers</a> · <a href="#voice-commands">Voice Commands</a>
+    <a href="#install">Install</a> · <a href="#getting-started-in-60-seconds">Getting Started</a> · <a href="#how-it-works">How It Works</a> · <a href="#settings--customization">Settings</a> · <a href="#providers">Providers</a> · <a href="#voice-commands">Voice Commands</a>
   </p>
 </p>
 
@@ -49,6 +49,29 @@ You need basic audio tools for your OS. Most systems have these already:
 
 ---
 
+## Getting Started in 60 Seconds
+
+```
+1.  pi install https://github.com/vibecoder008/pi-voice
+2.  Open Pi → type:  /voice setup
+3.  Follow the wizard → pick providers → paste API keys
+4.  Press Alt+V and start talking!
+```
+
+Or skip the wizard and jump right in:
+
+```
+/voice start          ← start recording (uses your configured provider)
+/voice stop           ← stop recording
+/voice mute           ← silence TTS output
+/voice unmute         ← re-enable TTS output
+/voice conversation   ← toggle hands-free mode
+/voice settings       ← open the full settings panel
+/voice help           ← quick reference card
+```
+
+---
+
 ## How It Works
 
 ### Voice Input — dictate instead of type
@@ -83,29 +106,6 @@ You speak → Pi processes → Pi responds aloud → Mic reopens → You speak a
 ```
 
 No keyboard needed. Perfect for brainstorming, code reviews, or when your hands are busy.
-
----
-
-## Getting Started in 60 Seconds
-
-```
-1.  pi install https://github.com/vibecoder008/pi-voice
-2.  Open Pi → type:  /voice setup
-3.  Follow the wizard → pick providers → paste API keys
-4.  Press Alt+V and start talking!
-```
-
-Or skip the wizard and jump right in:
-
-```
-/voice start          ← start recording (uses your configured provider)
-/voice stop           ← stop recording
-/voice mute           ← silence TTS output
-/voice unmute         ← re-enable TTS output
-/voice conversation   ← toggle hands-free mode
-/voice settings       ← open the full settings panel
-/voice help           ← quick reference card
-```
 
 ---
 
